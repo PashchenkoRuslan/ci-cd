@@ -148,6 +148,15 @@
 
 }
 
+#page-container {
+  min-height: 300px;
+}
+
+.total-amount__value {
+  min-width: 3em;
+  display: inline-block;
+}
+
 .cart {
   margin-left: auto;
   margin-right: 20px;
@@ -172,6 +181,8 @@
 }
 
 .cart__num {
+  min-width: 1em;
+  display: inline-block;
   margin-right: -9px;
   transition: 0.5s;
   @include mixins.iconCircle();
