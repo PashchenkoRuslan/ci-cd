@@ -373,6 +373,7 @@ html {
           box-sizing: border-box;
   color: #212121;
   font-family: 'Montserrat Alternates', sans-serif;
+  font-display: swap;
   font-weight: 400;
   scroll-behavior: smooth;
 }
