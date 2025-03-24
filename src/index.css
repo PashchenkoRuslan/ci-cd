@@ -936,6 +936,7 @@ h2 {
 }
 
 .footer__container {
+  min-height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
