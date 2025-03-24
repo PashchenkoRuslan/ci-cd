@@ -88,6 +88,7 @@ module.exports = {
             options: {
               mozjpeg: {
                 progressive: true,
+                quality: 65,
               },
               optipng: {
                 enabled: false,
@@ -105,7 +106,12 @@ module.exports = {
             },
           },
         ],
-        type: 'asset/resource',
+        type: 'asset',
+        parser: {
+          dataUrlCondition: {
+            maxSize: 8 * 1024, 
+          },
+        },
       },
       {
         test: /\.m?js$/i,
